@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> MergeArray(vector<int>A , vector<int>B){
+vector<int> IntersectionArray(vector<int>A , vector<int>B){
     vector<int> C;
     int i = 0, j = 0 ;
     while(i < A.size() && j < B.size()){
@@ -37,7 +37,7 @@ int main(){
     B.push_back(6); 
     B.push_back(8);
     
-    C = MergeArray(A, B);
+    C = IntersectionArray(A, B);
     for(int i = 0; i < C.size(); i++){
         cout << C[i] << " ";
     }
