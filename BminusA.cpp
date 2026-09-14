@@ -7,12 +7,12 @@ vector<int> MergeArray(vector<int>A , vector<int>B){
     while(i < A.size() && j < B.size()){
         if(A[i] < B[j]){
             
-            C.push_back(A[i]);
+            
             i++;
         
         }
         else if(A[i] > B[j]){
-            
+            C.push_back(B[j]);
             j++;
             
         }
