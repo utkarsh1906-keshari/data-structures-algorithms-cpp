@@ -131,11 +131,9 @@ int main()
     insAtBeg(Head, 20);
     insAtBeg(Head, 10);
 
-    // 10 → 20 → 30
 
     DelBeg(Head);
 
     display(Head);
 
-    // 20 → 30
 }
